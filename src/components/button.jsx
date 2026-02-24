@@ -12,7 +12,7 @@ const Button = ({
     button
     relative
     
- 
+
     items-center
     justify-center
     h-11
@@ -21,10 +21,10 @@ const Button = ({
     hover:text-color-1
     cursor-pointer
     ${px || "px-7"}
-    ${white ? "text-n-8" : "text-n-1"}
+    ${white ? "text-n-4": "text-n-1"}
+
     ${className || ""}
   `;
-
   const spanClasses = "relative z-10";
 
   const renderButton = () => (

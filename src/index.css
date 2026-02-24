@@ -19,7 +19,7 @@
   --color-color-6: #FF98E2;
 
   --color-stroke-1: #26242C;
-
+  
   --color-n-1: #FFFFFF;
   --color-n-2: #CAC6DD;
   --color-n-3: #ADA8C3;
@@ -27,7 +27,7 @@
   --color-n-5: #3F3A52;
   --color-n-6: #252134;
   --color-n-7: #15131D;
-  --color-n-8: #0E0C15;
+  --color-n-8: #0d0d0e;
   --color-n-9: #474060;
   --color-n-10: #43435C;
   --color-n-11: #1B1B2E;
@@ -83,6 +83,7 @@
   --bg-benefit-card-5: url("assets/benefits/card-5.svg");
   --bg-benefit-card-6: url("assets/benefits/card-6.svg");
 }
+
 
 
 /* =========================
@@ -172,6 +173,30 @@
 
   .tap-highlight-color {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+  .bg-benefit-card-1 {
+    background-image: var(--bg-benefit-card-1);
+  }
+
+  .bg-benefit-card-2 {
+    background-image: var(--bg-benefit-card-2);
+  }
+
+  .bg-benefit-card-3 {
+    background-image: var(--bg-benefit-card-3);
+  }
+
+  .bg-benefit-card-4 {
+    background-image: var(--bg-benefit-card-4);
+  }
+
+  .bg-benefit-card-5 {
+    background-image: var(--bg-benefit-card-5);
+  }
+
+  .bg-benefit-card-6 {
+    background-image: var(--bg-benefit-card-6);
   }
 
 }
