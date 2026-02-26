@@ -2,7 +2,7 @@ import React from "react";
 import Section from "./Section";
 import { collabApps, collabContent, collabText } from "../constants";
 import { brainwaveSymbol, check } from "../assets";
-import Button from "./Button";
+import Button from "./button ";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
@@ -71,7 +71,7 @@ const Collaboration = () => {
               ))}
             </ul>
 
-            <LeftCurve  />
+            <LeftCurve />
             <RightCurve />
           </div>
         </div>
