@@ -12,7 +12,7 @@ const Button = ({
     button
     relative
     
-
+    inline-flex
     items-center
     justify-center
     h-11

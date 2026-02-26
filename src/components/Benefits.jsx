@@ -12,7 +12,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading className="" title="Chat smarter ,Not harder with Brainwave" />
 
-        <div className="flex flex-wrap gap-10 mb-10">
+        <div className="flex flex-wrap gap-9 mb-9">
           {benefits.map((item) => (
             <div
               className="block relative  p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] "
@@ -23,7 +23,7 @@ const Benefits = () => {
             >
               <div className="block  relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">
                 <h5 className="h5 mb-5">{item.title}</h5>
-                <p className="body-3 mb-6">{item.text}</p>
+                <p className="body-2 mb-6">{item.text}</p>
                 <div className="flex items-center mt-auto">
                   <img 
                   src={item.iconUrl} 

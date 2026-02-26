@@ -67,7 +67,7 @@
   /* Background Images */
   --bg-radial-gradient: radial-gradient(var(--tw-gradient-stops));
 
-  --background-image-conic: conic-gradient(
+  --bg-conic-gradient: conic-gradient(
   from 225deg,
   #FFC876,
   #79FFF7,
